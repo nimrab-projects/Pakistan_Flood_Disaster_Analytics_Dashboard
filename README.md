@@ -23,6 +23,42 @@ Full-stack analytics platform for Pakistan flood data (2005–2025). Upload five
 
 ---
 
+## Visual Tour & Screenshots
+
+Here is a visual walkthrough of the Pakistan Flood ML Analytics Dashboard:
+
+### 1. Dataset Upload Portal
+Before analyzing, upload the 5 dedicated datasets to initialize the pipeline.
+![Upload Portal](images/image1.1.png)
+
+### 2. ARIMAX Time Series Forecasting (Module 1)
+Forecasts rainfall, flooded area, and houses damaged for 2026–2030.
+![ARIMA Rainfall Forecast](images/image1.png)
+![ARIMA Flooded Area and Houses Damaged Forecast](images/image2.png)
+
+### 3. XGBoost Fatality Tier Classification (Module 2)
+Classifies emergency incidents and ranks feature importance with a confusion matrix.
+![XGBoost Classification](images/image3.png)
+
+### 4. NLP Sentiment & Data Quality Analytics (Module 3)
+Analyzes incident report text quality (Valid vs. Incomplete) and sentiment by province.
+![NLP Sentiment Analytics](images/image4.png)
+
+### 5. PyTorch CNN Damage Tier Prediction (Module 4)
+Reshapes 12 flood features into 4×3 spatial grids to predict infrastructure damage tiers.
+![CNN Grid Training](images/image5.png)
+![CNN Confusion Matrix & Feature Importance](images/image6.png)
+
+### 6. K-Means Regional Risk Clustering (Module 5)
+Groups districts into Low, Medium, and High risk zones with a high silhouette score.
+![K-Means Clustering](images/image7.png)
+
+### 7. Plotly Multi-Metric Overview
+Provides a year-by-year comparison of total casualties vs. average rainfall.
+![Plotly Overview](images/image8.png)
+
+---
+
 ## Project structure
 
 ```
